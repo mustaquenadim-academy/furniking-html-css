@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Firniking</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Firniking</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<!-- start top bar -->
+			<div id="top-bar" class="container">
+				<div class="top-left">Welcome to our online shop</div>
+				<div class="top-right">
+					<select name="currency" id="currency">
+						<option value="usd">English (USD)</option>
+						<option value="bdt">Bengali (BDT)</option>
+						<option value="lb">UK (Pound)</option>
+					</select>
+					<div class="login-navigation"><a href="#">Login</a> or <a href="#">Sign up</a></div>
+				</div>
+			</div>
+			<!-- end top bar -->
+
+			<!-- start search bar -->
+			<div id="search-bar" class="container">
+        <div class="brand">
+          <img src="./assets/brand/brand-logo.svg" alt="Furniking Brand Logo">
+        </div>
+
+        <div class="search-input-field">
+          <input type="search" name="search" id="search" placeholder="Search here">
+          <div class="search-category">
+            <select name="category" id="category">
+              <option>Categories</option>
+              <option value="sofa">Sofa</option>
+              <option value="chair">Chair</option>
+              <option value="table">Table</option>
+            </select>
+          </div>
+          <div class="search-icon">
+            <img src="./assets/icons/search-icon.svg" alt="Search Icon">
+          </div>
+        </div>
+
+        <div class="icons">
+          <div class="cart-icon-with-number">
+            <img class="nav-icon" src="./assets/icons/shopping-bag-icon.svg" alt="Cart Icon">
+            <div class="cart-number">4</div>
+          </div>
+          <img class="nav-icon" src="./assets/icons/bell-icon.png" alt="Notification Icon">
+          <img class="nav-icon" src="./assets/icons/user-icon.svg" alt="Account Icon">
+        </div>
+      </div>
+			<!-- end search bar -->
+
+			<!-- start main navbar -->
+			<div></div>
+			<!-- end main navbar -->
+		</header>
+
+		<main></main>
+
+		<footer></footer>
+	</body>
 </html>
