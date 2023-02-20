@@ -6,4 +6,6 @@
 
 [Part 1](https://youtu.be/Zk1d5BN91B4)
 
+[Part 2](https://youtu.be/-_GDmK9EMoI)
+
 `HTML` `CSS`
