@@ -201,16 +201,18 @@ a {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  letter-spacing: 2%;
-  border: none;
 }
 
 #main-navbar .all-collection-btn img {
   margin-right: 20px;
+}
+
+#main-navbar .all-collection-btn .btn-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.02em;
 }
 
 #main-navbar .nav-list {
