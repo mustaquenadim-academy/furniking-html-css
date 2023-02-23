@@ -411,3 +411,152 @@ a {
   color: #757575;
 }
 /* end offer section */
+
+/* start trending  */
+#trending {
+  font-family: var(--mulish);
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+#trending h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45.18px;
+  color: #555555;
+  text-transform: uppercase;
+}
+
+#trending .trending-categories {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+#trending .trending-categories .category {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #C2C2C2;
+}
+
+#trending .trending-categories .active {
+  color: #7AC751;
+}
+
+#trending .products {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 32px;
+}
+
+#trending .card {
+  overflow: hidden;
+}
+
+#trending .card:hover .action-btn-group {
+  right: 8px;
+  transition: 0.6s;
+}
+
+#trending .card-top {
+  position: relative;
+}
+
+#trending .card-top .product-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: 0 0 5px 0;
+}
+
+#trending .card-top .new-tag {
+  background: #00B7F1;
+}
+
+#trending .card-top .sale-tag {
+  background: #7AC751;
+}
+
+#trending .card-top .action-btn-group {
+  position: absolute;
+  bottom: 16px;
+  right: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#trending .card-top .action-btn-group .action-btn {
+  height: 40px;
+  width: 40px;
+  border: 0;
+  background: #fff;
+  box-shadow: 0px 2px 33px rgba(0, 0, 0, 0.09);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#trending .card-top .action-btn-group .action-btn:hover {
+  background: #7AC751;
+}
+
+#trending .card .card-body {
+  margin-top: 16px;
+}
+
+#trending .card .card-body .product-category {
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+#trending .card .card-body .product-title {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #555555;
+  font-family: var(--rubik);
+}
+
+#trending .card .card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+#trending .card .discounted-price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #7AC751;
+}
+
+#trending .card .product-price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.6px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  /* text-decoration-line: line-through; */
+  color: #CCCCCC;
+  margin-left: 7px;
+}
+/* end trending */
